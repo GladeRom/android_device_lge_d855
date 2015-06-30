@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common GLADE stuff.
+$(call inherit-product, vendor/glade/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/glade/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_d855
+PRODUCT_NAME := glade_d855
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
